@@ -27,7 +27,7 @@
 ![User Flow Diagram](diagrams/backend_workflow_overview.png) 
 
 ## Introduction
-The **Assignment3-NVIDIA-MultimodalResearchAssistant** project is designed to facilitate document exploration, summarization, and question-answering using state-of-the-art AI models. It leverages multi-modal retrieval-augmented generation (RAG) techniques using NVIDIA’s large language models, integrated with a robust data pipeline and document management system. The core of this project revolves around automating the ingestion, processing, and querying of research documents from the CFA Institute Research Foundation Publications. With a streamlined frontend powered by Streamlit and a backend built with FastAPI, users can seamlessly explore documents, generate concise summaries, and interact with the data through an intelligent Q/A interface.
+The **NVIDIA-MultimodalResearchAssistant** project is designed to facilitate document exploration, summarization, and question-answering using state-of-the-art AI models. It leverages multi-modal retrieval-augmented generation (RAG) techniques using NVIDIA’s large language models, integrated with a robust data pipeline and document management system. The core of this project revolves around automating the ingestion, processing, and querying of research documents from the CFA Institute Research Foundation Publications. With a streamlined frontend powered by Streamlit and a backend built with FastAPI, users can seamlessly explore documents, generate concise summaries, and interact with the data through an intelligent Q/A interface.
 
 ## Key Features
 - **Automated PDF Processing**: Extracts text from PDFs and stores them in S3, enabling easy and secure access to publication content.  
