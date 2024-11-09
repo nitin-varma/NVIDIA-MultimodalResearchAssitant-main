@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "assignment3-nvidia-multimodalresearchassistant"
+version = "0.1.0"
+description = ""
+authors = ["dharun-karthick-ramaraj <dharun.ramaraj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+selenium = "^4.25.0"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.45"
+pandas = "^2.2.3"
+snowflake-connector-python = "^3.12.2"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+streamlit = "^1.39.0"
+st-clickable-images = "^0.0.3"
+pymupdf = "^1.24.12"
+pdfplumber = "^0.11.4"
+openai = "^1.52.2"
+llama-index-core = "^0.11.20"
+llama-index-readers-file = "^0.2.2"
+llama-index-llms-nvidia = "^0.2.6"
+llama-index-embeddings-nvidia = "^0.2.4"
+llama-index-vector-stores-milvus = "^0.2.7"
+pymilvus = "^2.4.8"
+python-multipart = "^0.0.12"
+torch = "^2.5.0"
+tensorflow = "^2.18.0"
+openpyxl = "^3.1.5"
+pinecone-client = "^5.0.1"
+llama-index-vector-stores-pinecone = "^0.2.1"
+langchain-nvidia-ai-endpoints = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

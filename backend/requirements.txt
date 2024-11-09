@@ -1,0 +1,30 @@
+# Core Dependencies
+fastapi==0.115.3
+requests==2.32.3
+python-dotenv==1.0.1
+uvicorn==0.32.0  # ASGI server for FastAPI
+
+# AWS and Cloud Connectors
+boto3==1.35.45
+snowflake-connector-python==3.12.2
+
+# Pinecone and Vector Stores
+pinecone-client==5.0.1
+llama-index-vector-stores-pinecone==0.2.1
+
+# LLM and Embeddings with NVIDIA Integration
+llama-index-core==0.11.20
+llama-index-embeddings-nvidia==0.2.4
+llama-index-llms-nvidia==0.2.6
+
+# Readers and Endpoints
+llama-index-readers-file==0.2.2
+langchain-nvidia-ai-endpoints==0.3.3
+
+# PDF and Image Processing
+pymupdf==1.24.12  # For 'fitz'
+Pillow==10.4.0  # For image processing
+python-multipart==0.0.12  # For handling form data
+
+# OpenAI Integration
+openai==1.52.2

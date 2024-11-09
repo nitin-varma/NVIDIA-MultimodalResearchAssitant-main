@@ -1,0 +1,30 @@
+services:
+  fastapi:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fastapi-service
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+  streamlit:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: streamlit-service
+    ports:
+      - "8501:8501"
+    environment:
+      - FASTAPI_URL=http://fastapi:8000
+    depends_on:
+      - fastapi
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
