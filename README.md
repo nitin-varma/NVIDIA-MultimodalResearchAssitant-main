@@ -1,10 +1,4 @@
 # NVIDIA-MultimodalResearchAssistant
-
-
-- **FAST API Link: [[FastAPI deployed in GCP Instance](http://34.148.55.30:8000/)]**  
-- **Streamlit Application Link: [[Streamlit Application deployed in GCP Instance](http://34.148.55.30:8501/)]**  
-
-- **Docker Repository: [[Docker Repository](https://hub.docker.com/repositories/linatad)]**   
  
 
 ## Table of Contents
